@@ -1,0 +1,104 @@
+{
+  "college_info": {
+    "name": "Majlis Polytechnic College",
+    "vision": "To be a center of excellence in technical education, molding professionals with ethical values and social commitment.",
+    "mission": [
+      "Provide quality technical education.",
+      "Inculcate ethical values and leadership qualities.",
+      "Foster industry-institute interaction.",
+      "Empower students for lifelong learning."
+    ],
+    "about": "Majlis Polytechnic College is a premier institution dedicated to providing high-quality technical education. We offer state-of-the-art facilities and a conducive learning environment.",
+    "contact": {
+      "phone": "+91 8281899825",
+      "email": "info@majliscomplex.org",
+      "address": "Majlis Nagar, Puramannur (P O), Moorkanad, Valanchery, Malappuram Dist, Kerala - 676552",
+      "portals": {
+        "fees_linways": "https://majlispolytechnic.linways.com/",
+        "admission_portal": "https://polyadmission.org/let/index.php?r=site%2Fhome"
+      }
+    }
+  },
+  "facilities": {
+    "hostel": {
+      "available": true,
+      "type": "Girls only",
+      "description": "Safe and secure hostel facilities provided exclusively for girl students with modern amenities."
+    },
+    "bus_routes": ["Tirur", "Kuttippuram", "Pattambi", "Koppam"],
+    "library": "A well-stocked library with thousands of technical books and journals.",
+    "labs": "Advanced laboratories for all analysis and practical sessions."
+  },
+  "admissions": {
+    "process": "Admissions are conducted through the centralized allotment process by the Government of Kerala. Management seats are filled based on merit.",
+    "eligibility": "Pass in SSLC or equivalent examination with seeking eligibility for higher studies.",
+    "documents_required": [
+      "SSLC Certificate",
+      "TC & Conduct Certificate",
+      "Caste/Income Certificate (if applicable)",
+      "Passport size photos"
+    ]
+  },
+  "curriculum": {
+    "CT": {
+      "name": "Computer Engineering",
+      "code": "CT",
+      "semesters": {
+        "1": [{"code": "1001", "name": "Communication Skills in English", "credits": 4, "marks": 100}, {"code": "1002", "name": "Mathematics I", "credits": 5, "marks": 100}, {"code": "1009", "name": "Introduction to IT", "credits": 2, "marks": 50}],
+        "2": [{"code": "2002", "name": "Mathematics II", "credits": 4, "marks": 100}, {"code": "2131", "name": "Problem Solving and Programming", "credits": 3, "marks": 100}],
+        "3": [{"code": "3131", "name": "Computer Organisation", "credits": 4, "marks": 100}, {"code": "3132", "name": "Programming in C", "credits": 3, "marks": 100}, {"code": "3133", "name": "Database Management Systems", "credits": 3, "marks": 100}],
+        "4": [{"code": "4131", "name": "Object Oriented Programming", "credits": 4, "marks": 100}, {"code": "4132", "name": "Computer Communication and Networks", "credits": 3, "marks": 100}],
+        "5": [{"code": "5131", "name": "Embedded System and RTOS", "credits": 4, "marks": 100}, {"code": "5132", "name": "Operating System", "credits": 4, "marks": 100}],
+        "6": [{"code": "6131C", "name": "Software Testing", "credits": 4, "marks": 100}, {"code": "6009", "name": "Major Project", "credits": 4, "marks": 100}]
+      }
+    },
+    "CE": {
+      "name": "Civil Engineering",
+      "code": "CE",
+      "semesters": {
+        "1": [{"code": "1001", "name": "Communication Skills in English", "credits": 4, "marks": 100}, {"code": "1002", "name": "Mathematics I", "credits": 5, "marks": 100}],
+        "2": [{"code": "2011", "name": "Basic Surveying", "credits": 3, "marks": 100}, {"code": "2021", "name": "Engineering Mechanics", "credits": 3, "marks": 100}],
+        "3": [{"code": "3011", "name": "Advanced Surveying", "credits": 3, "marks": 100}, {"code": "3012", "name": "Concrete Technology", "credits": 3, "marks": 100}, {"code": "3013", "name": "Construction Materials", "credits": 4, "marks": 100}],
+        "4": [{"code": "4011", "name": "Geotechnical Engineering", "credits": 4, "marks": 100}, {"code": "4013", "name": "Estimating & Costing", "credits": 4, "marks": 100}],
+        "5": [{"code": "5012", "name": "Design of Steel and RCC Structures", "credits": 5, "marks": 100}, {"code": "5013", "name": "Transportation Engineering", "credits": 4, "marks": 100}],
+        "6": [{"code": "6011A", "name": "Public Health Engineering", "credits": 4, "marks": 100}, {"code": "6009", "name": "Major Project", "credits": 4, "marks": 125}]
+      }
+    },
+    "ME": {
+      "name": "Mechanical Engineering",
+      "code": "ME",
+      "semesters": {
+        "1": [{"code": "1001", "name": "Communication Skills in English", "credits": 4, "marks": 100}],
+        "2": [{"code": "2022", "name": "Manufacturing Technology", "credits": 3, "marks": 100}],
+        "3": [{"code": "3021", "name": "Strength of Materials", "credits": 3, "marks": 100}, {"code": "3023", "name": "Machine Tools", "credits": 4, "marks": 100}],
+        "4": [{"code": "4021", "name": "Thermal Engineering", "credits": 4, "marks": 100}, {"code": "4023", "name": "Automobile Engineering", "credits": 4, "marks": 100}],
+        "5": [{"code": "5021", "name": "Design Of Machine Elements", "credits": 4, "marks": 100}, {"code": "5022", "name": "Refrigeration and Air conditioning", "credits": 4, "marks": 100}],
+        "6": [{"code": "6021A", "name": "Mechatronics", "credits": 4, "marks": 100}, {"code": "6009", "name": "Major Project", "credits": 4, "marks": 125}]
+      }
+    },
+    "EE": {
+      "name": "Electrical & Electronics",
+      "code": "EE",
+      "semesters": {
+        "1": [{"code": "1001", "name": "Communication Skills in English", "credits": 4, "marks": 100}],
+        "2": [{"code": "2032", "name": "Elementary Concepts of Electrical Systems", "credits": 3, "marks": 100}],
+        "3": [{"code": "3033", "name": "Fundamentals of Electric Circuits", "credits": 4, "marks": 100}, {"code": "3031", "name": "Analog & Digital Circuits", "credits": 3, "marks": 100}],
+        "4": [{"code": "4031", "name": "Power Electronics Devices and Circuits", "credits": 4, "marks": 100}, {"code": "4033", "name": "Induction Machines", "credits": 4, "marks": 100}],
+        "5": [{"code": "5032", "name": "Electricity Generation, Transmission & Distribution", "credits": 4, "marks": 100}],
+        "6": [{"code": "6031D", "name": "Electric Vehicles", "credits": 4, "marks": 100}, {"code": "6009", "name": "Major Project", "credits": 4, "marks": 125}]
+      }
+    },
+    "AU": {
+      "name": "Automobile Engineering",
+      "code": "AU",
+      "semesters": {
+        "1": [{"code": "1001", "name": "Communication Skills in English", "credits": 4, "marks": 100}],
+        "2": [{"code": "2051", "name": "Basic Automobile Engineering", "credits": 3, "marks": 100}],
+        "3": [{"code": "3054", "name": "Internal Combustion Engines", "credits": 4, "marks": 100}, {"code": "3051", "name": "Fundamentals of Fluid Mechanics", "credits": 3, "marks": 100}],
+        "4": [{"code": "4051", "name": "Heat Power Engineering", "credits": 4, "marks": 100}, {"code": "4053", "name": "Automobile Chassis and Transmission", "credits": 4, "marks": 100}],
+        "5": [{"code": "5052", "name": "Vehicle Diagnostics and Service", "credits": 4, "marks": 100}],
+        "6": [{"code": "6051A", "name": "Electric and Hybrid Vehicles", "credits": 4, "marks": 100}, {"code": "6009", "name": "Major Project", "credits": 4, "marks": 125}]
+      }
+    }
+  }
+}
