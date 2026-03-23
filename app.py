@@ -15,7 +15,8 @@ except ImportError:
 app = Flask(__name__)
 
 # Load Data
-DATA_FILE = 'majlis_data.json'
+basedir = os.path.dirname(os.path.abspath(__file__))
+DATA_FILE = os.path.join(basedir, 'majlis_data.json')
 majlis_data = {}
 
 def load_data():
