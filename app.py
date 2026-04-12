@@ -219,7 +219,7 @@ def chat():
     # If the user's message didn't match any hardcoded intents, ask the AI!
     if HAS_GEMINI:
         # Uses environment variable if found, otherwise uses your provided key
-        api_key = os.environ.get("GEMINI_API_KEY", "AIzaSyAqNsoxT5o08-3atIoKYpnSQh3jx26-N7c")
+        api_key = os.environ.get("GEMINI_API_KEY", "AIzaSyBNBiTlEVm4yhYawA5T5HeCXfbB4lpcLjI")
         if api_key:
             try:
                 client = genai.Client(api_key=api_key)
@@ -229,7 +229,7 @@ def chat():
                 real_phone = contact_info.get('phone', '+91 8281899825')
                 real_email = contact_info.get('email', 'info@majliscomplex.org')
                 
-                sys_instruct = f"You are a helpful, friendly AI assistant for Majlis Polytechnic College. The official college phone number is {real_phone} and email is {real_email}. Use this factual data. Keep the response short (2-3 sentences max) and polite. Use <br> for new lines instead of markdown."
+                sys_instruct = f"You are a helpful, friendly AI assistant for Majlis Polytechnic College. The official college phone number is {real_phone} and email is {real_email}. Use this factual data. ONLY answer queries related to the college, project, admissions, syllabus, or academics. If the user asks 'who are you' or about your identity, proudly introduce yourself as the 'Majlis Helpdesk Chatbot'. If the user asks a social or general query (e.g., 'how are you', 'tell me a joke', 'how is the weather'), politely decline and state that you can only answer college-related questions. Keep the response short (1-3 sentences max). Use <br> for new lines instead of markdown."
                 
                 response_text = client.models.generate_content(
                     model='gemini-2.5-flash',
@@ -245,9 +245,14 @@ def chat():
                     return jsonify(response)
             except Exception as e:
                 print(f"Gemini AI Error: {e}")
-                pass # Falls through to the default below if error
+                response["text"] = f"An error occurred with the AI service: {e}. Please check your API key."
+                return jsonify(response)
         else:
-            print("GEMINI_API_KEY not found in environment.")
+            response["text"] = "Gemini API key is not configured."
+            return jsonify(response)
+    else:
+        response["text"] = "Gemini AI module is not installed (`google-genai`), so AI fallback is disabled."
+        return jsonify(response)
 
     # Final Default Fallback
     return jsonify(response)

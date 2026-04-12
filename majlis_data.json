@@ -25,7 +25,12 @@
       "type": "Girls only",
       "description": "Safe and secure hostel facilities provided exclusively for girl students with modern amenities."
     },
-    "bus_routes": ["Tirur", "Kuttippuram", "Pattambi", "Koppam"],
+    "bus_routes": [
+      "Tirur",
+      "Kuttippuram",
+      "Pattambi",
+      "Koppam"
+    ],
     "library": "A well-stocked library with thousands of technical books and journals.",
     "labs": "Advanced laboratories for all analysis and practical sessions."
   },
@@ -44,60 +49,1032 @@
       "name": "Computer Engineering",
       "code": "CT",
       "semesters": {
-        "1": [{"code": "1001", "name": "Communication Skills in English", "credits": 4, "marks": 100}, {"code": "1002", "name": "Mathematics I", "credits": 5, "marks": 100}, {"code": "1009", "name": "Introduction to IT", "credits": 2, "marks": 50}],
-        "2": [{"code": "2002", "name": "Mathematics II", "credits": 4, "marks": 100}, {"code": "2131", "name": "Problem Solving and Programming", "credits": 3, "marks": 100}],
-        "3": [{"code": "3131", "name": "Computer Organisation", "credits": 4, "marks": 100}, {"code": "3132", "name": "Programming in C", "credits": 3, "marks": 100}, {"code": "3133", "name": "Database Management Systems", "credits": 3, "marks": 100}],
-        "4": [{"code": "4131", "name": "Object Oriented Programming", "credits": 4, "marks": 100}, {"code": "4132", "name": "Computer Communication and Networks", "credits": 3, "marks": 100}],
-        "5": [{"code": "5131", "name": "Embedded System and RTOS", "credits": 4, "marks": 100}, {"code": "5132", "name": "Operating System", "credits": 4, "marks": 100}],
-        "6": [{"code": "6131C", "name": "Software Testing", "credits": 4, "marks": 100}, {"code": "6009", "name": "Major Project", "credits": 4, "marks": 100}]
+        "1": [
+          {
+            "code": "1001",
+            "name": "Communication Skills in English",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "1002",
+            "name": "Mathematics I",
+            "credits": 5,
+            "marks": 100
+          },
+          {
+            "code": "1003",
+            "name": "Applied Physics I",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "1004",
+            "name": "Applied Chemistry I",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "1008",
+            "name": "Engineering Graphics",
+            "credits": 5,
+            "marks": 100
+          },
+          {
+            "code": "1009",
+            "name": "Introduction to IT",
+            "credits": 2,
+            "marks": 50
+          }
+        ],
+        "2": [
+          {
+            "code": "2002",
+            "name": "Mathematics II",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "2131",
+            "name": "Problem Solving and Programming",
+            "credits": 3,
+            "marks": 100
+          },
+          {
+            "code": "2001",
+            "name": "Communication Skills in English II",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "2003",
+            "name": "Applied Physics II",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "2004",
+            "name": "Applied Chemistry II",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "2007",
+            "name": "Engineering Mechanics",
+            "credits": 4,
+            "marks": 100
+          }
+        ],
+        "3": [
+          {
+            "code": "304M",
+            "name": "Computer Engineering Core Subject 1",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "305M",
+            "name": "Computer Engineering Core Subject 2",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "3131",
+            "name": "Computer Organisation",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "3132",
+            "name": "Programming in C",
+            "credits": 3,
+            "marks": 100
+          },
+          {
+            "code": "3133",
+            "name": "Database Management Systems",
+            "credits": 3,
+            "marks": 100
+          }
+        ],
+        "4": [
+          {
+            "code": "404M",
+            "name": "Computer Engineering Core Subject 1",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "405M",
+            "name": "Computer Engineering Core Subject 2",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "406M",
+            "name": "Computer Engineering Core Subject 3",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "4131",
+            "name": "Object Oriented Programming",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "4132",
+            "name": "Computer Communication and Networks",
+            "credits": 3,
+            "marks": 100
+          }
+        ],
+        "5": [
+          {
+            "code": "504M",
+            "name": "Computer Engineering Core Subject 1",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "505M",
+            "name": "Computer Engineering Core Subject 2",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "506M",
+            "name": "Computer Engineering Core Subject 3",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "5131",
+            "name": "Embedded System and RTOS",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "5132",
+            "name": "Operating System",
+            "credits": 4,
+            "marks": 100
+          }
+        ],
+        "6": [
+          {
+            "code": "6009",
+            "name": "Major Project",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "604M",
+            "name": "Computer Engineering Core Subject 1",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "605M",
+            "name": "Computer Engineering Core Subject 2",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "606M",
+            "name": "Computer Engineering Core Subject 3",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "6131C",
+            "name": "Software Testing",
+            "credits": 4,
+            "marks": 100
+          }
+        ]
       }
     },
     "CE": {
       "name": "Civil Engineering",
       "code": "CE",
       "semesters": {
-        "1": [{"code": "1001", "name": "Communication Skills in English", "credits": 4, "marks": 100}, {"code": "1002", "name": "Mathematics I", "credits": 5, "marks": 100}],
-        "2": [{"code": "2011", "name": "Basic Surveying", "credits": 3, "marks": 100}, {"code": "2021", "name": "Engineering Mechanics", "credits": 3, "marks": 100}],
-        "3": [{"code": "3011", "name": "Advanced Surveying", "credits": 3, "marks": 100}, {"code": "3012", "name": "Concrete Technology", "credits": 3, "marks": 100}, {"code": "3013", "name": "Construction Materials", "credits": 4, "marks": 100}],
-        "4": [{"code": "4011", "name": "Geotechnical Engineering", "credits": 4, "marks": 100}, {"code": "4013", "name": "Estimating & Costing", "credits": 4, "marks": 100}],
-        "5": [{"code": "5012", "name": "Design of Steel and RCC Structures", "credits": 5, "marks": 100}, {"code": "5013", "name": "Transportation Engineering", "credits": 4, "marks": 100}],
-        "6": [{"code": "6011A", "name": "Public Health Engineering", "credits": 4, "marks": 100}, {"code": "6009", "name": "Major Project", "credits": 4, "marks": 125}]
+        "1": [
+          {
+            "code": "1001",
+            "name": "Communication Skills in English",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "1002",
+            "name": "Mathematics I",
+            "credits": 5,
+            "marks": 100
+          },
+          {
+            "code": "1003",
+            "name": "Applied Physics I",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "1004",
+            "name": "Applied Chemistry I",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "1008",
+            "name": "Engineering Graphics",
+            "credits": 5,
+            "marks": 100
+          }
+        ],
+        "2": [
+          {
+            "code": "2011",
+            "name": "Basic Surveying",
+            "credits": 3,
+            "marks": 100
+          },
+          {
+            "code": "2021",
+            "name": "Engineering Mechanics",
+            "credits": 3,
+            "marks": 100
+          },
+          {
+            "code": "2001",
+            "name": "Communication Skills in English II",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "2002",
+            "name": "Mathematics II",
+            "credits": 5,
+            "marks": 100
+          },
+          {
+            "code": "2003",
+            "name": "Applied Physics II",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "2004",
+            "name": "Applied Chemistry II",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "2007",
+            "name": "Engineering Mechanics",
+            "credits": 4,
+            "marks": 100
+          }
+        ],
+        "3": [
+          {
+            "code": "3011",
+            "name": "Advanced Surveying",
+            "credits": 3,
+            "marks": 100
+          },
+          {
+            "code": "3012",
+            "name": "Concrete Technology",
+            "credits": 3,
+            "marks": 100
+          },
+          {
+            "code": "3013",
+            "name": "Construction Materials",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "304M",
+            "name": "Civil Engineering Core Subject 1",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "305M",
+            "name": "Civil Engineering Core Subject 2",
+            "credits": 4,
+            "marks": 100
+          }
+        ],
+        "4": [
+          {
+            "code": "4011",
+            "name": "Geotechnical Engineering",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "4013",
+            "name": "Estimating & Costing",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "404M",
+            "name": "Civil Engineering Core Subject 1",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "405M",
+            "name": "Civil Engineering Core Subject 2",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "406M",
+            "name": "Civil Engineering Core Subject 3",
+            "credits": 4,
+            "marks": 100
+          }
+        ],
+        "5": [
+          {
+            "code": "5012",
+            "name": "Design of Steel and RCC Structures",
+            "credits": 5,
+            "marks": 100
+          },
+          {
+            "code": "5013",
+            "name": "Transportation Engineering",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "504M",
+            "name": "Civil Engineering Core Subject 1",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "505M",
+            "name": "Civil Engineering Core Subject 2",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "506M",
+            "name": "Civil Engineering Core Subject 3",
+            "credits": 4,
+            "marks": 100
+          }
+        ],
+        "6": [
+          {
+            "code": "6009",
+            "name": "Major Project",
+            "credits": 4,
+            "marks": 125
+          },
+          {
+            "code": "6011A",
+            "name": "Public Health Engineering",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "604M",
+            "name": "Civil Engineering Core Subject 1",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "605M",
+            "name": "Civil Engineering Core Subject 2",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "606M",
+            "name": "Civil Engineering Core Subject 3",
+            "credits": 4,
+            "marks": 100
+          }
+        ]
       }
     },
     "ME": {
       "name": "Mechanical Engineering",
       "code": "ME",
       "semesters": {
-        "1": [{"code": "1001", "name": "Communication Skills in English", "credits": 4, "marks": 100}],
-        "2": [{"code": "2022", "name": "Manufacturing Technology", "credits": 3, "marks": 100}],
-        "3": [{"code": "3021", "name": "Strength of Materials", "credits": 3, "marks": 100}, {"code": "3023", "name": "Machine Tools", "credits": 4, "marks": 100}],
-        "4": [{"code": "4021", "name": "Thermal Engineering", "credits": 4, "marks": 100}, {"code": "4023", "name": "Automobile Engineering", "credits": 4, "marks": 100}],
-        "5": [{"code": "5021", "name": "Design Of Machine Elements", "credits": 4, "marks": 100}, {"code": "5022", "name": "Refrigeration and Air conditioning", "credits": 4, "marks": 100}],
-        "6": [{"code": "6021A", "name": "Mechatronics", "credits": 4, "marks": 100}, {"code": "6009", "name": "Major Project", "credits": 4, "marks": 125}]
+        "1": [
+          {
+            "code": "1001",
+            "name": "Communication Skills in English",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "1002",
+            "name": "Mathematics I",
+            "credits": 5,
+            "marks": 100
+          },
+          {
+            "code": "1003",
+            "name": "Applied Physics I",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "1004",
+            "name": "Applied Chemistry I",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "1008",
+            "name": "Engineering Graphics",
+            "credits": 5,
+            "marks": 100
+          }
+        ],
+        "2": [
+          {
+            "code": "2022",
+            "name": "Manufacturing Technology",
+            "credits": 3,
+            "marks": 100
+          },
+          {
+            "code": "2001",
+            "name": "Communication Skills in English II",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "2002",
+            "name": "Mathematics II",
+            "credits": 5,
+            "marks": 100
+          },
+          {
+            "code": "2003",
+            "name": "Applied Physics II",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "2004",
+            "name": "Applied Chemistry II",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "2007",
+            "name": "Engineering Mechanics",
+            "credits": 4,
+            "marks": 100
+          }
+        ],
+        "3": [
+          {
+            "code": "3021",
+            "name": "Strength of Materials",
+            "credits": 3,
+            "marks": 100
+          },
+          {
+            "code": "3023",
+            "name": "Machine Tools",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "304M",
+            "name": "Mechanical Engineering Core Subject 1",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "305M",
+            "name": "Mechanical Engineering Core Subject 2",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "306M",
+            "name": "Mechanical Engineering Core Subject 3",
+            "credits": 4,
+            "marks": 100
+          }
+        ],
+        "4": [
+          {
+            "code": "4021",
+            "name": "Thermal Engineering",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "4023",
+            "name": "Automobile Engineering",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "404M",
+            "name": "Mechanical Engineering Core Subject 1",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "405M",
+            "name": "Mechanical Engineering Core Subject 2",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "406M",
+            "name": "Mechanical Engineering Core Subject 3",
+            "credits": 4,
+            "marks": 100
+          }
+        ],
+        "5": [
+          {
+            "code": "5021",
+            "name": "Design Of Machine Elements",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "5022",
+            "name": "Refrigeration and Air conditioning",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "504M",
+            "name": "Mechanical Engineering Core Subject 1",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "505M",
+            "name": "Mechanical Engineering Core Subject 2",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "506M",
+            "name": "Mechanical Engineering Core Subject 3",
+            "credits": 4,
+            "marks": 100
+          }
+        ],
+        "6": [
+          {
+            "code": "6009",
+            "name": "Major Project",
+            "credits": 4,
+            "marks": 125
+          },
+          {
+            "code": "6021A",
+            "name": "Mechatronics",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "604M",
+            "name": "Mechanical Engineering Core Subject 1",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "605M",
+            "name": "Mechanical Engineering Core Subject 2",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "606M",
+            "name": "Mechanical Engineering Core Subject 3",
+            "credits": 4,
+            "marks": 100
+          }
+        ]
       }
     },
     "EE": {
       "name": "Electrical & Electronics",
       "code": "EE",
       "semesters": {
-        "1": [{"code": "1001", "name": "Communication Skills in English", "credits": 4, "marks": 100}],
-        "2": [{"code": "2032", "name": "Elementary Concepts of Electrical Systems", "credits": 3, "marks": 100}],
-        "3": [{"code": "3033", "name": "Fundamentals of Electric Circuits", "credits": 4, "marks": 100}, {"code": "3031", "name": "Analog & Digital Circuits", "credits": 3, "marks": 100}],
-        "4": [{"code": "4031", "name": "Power Electronics Devices and Circuits", "credits": 4, "marks": 100}, {"code": "4033", "name": "Induction Machines", "credits": 4, "marks": 100}],
-        "5": [{"code": "5032", "name": "Electricity Generation, Transmission & Distribution", "credits": 4, "marks": 100}],
-        "6": [{"code": "6031D", "name": "Electric Vehicles", "credits": 4, "marks": 100}, {"code": "6009", "name": "Major Project", "credits": 4, "marks": 125}]
+        "1": [
+          {
+            "code": "1001",
+            "name": "Communication Skills in English",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "1002",
+            "name": "Mathematics I",
+            "credits": 5,
+            "marks": 100
+          },
+          {
+            "code": "1003",
+            "name": "Applied Physics I",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "1004",
+            "name": "Applied Chemistry I",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "1008",
+            "name": "Engineering Graphics",
+            "credits": 5,
+            "marks": 100
+          }
+        ],
+        "2": [
+          {
+            "code": "2032",
+            "name": "Elementary Concepts of Electrical Systems",
+            "credits": 3,
+            "marks": 100
+          },
+          {
+            "code": "2001",
+            "name": "Communication Skills in English II",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "2002",
+            "name": "Mathematics II",
+            "credits": 5,
+            "marks": 100
+          },
+          {
+            "code": "2003",
+            "name": "Applied Physics II",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "2004",
+            "name": "Applied Chemistry II",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "2007",
+            "name": "Engineering Mechanics",
+            "credits": 4,
+            "marks": 100
+          }
+        ],
+        "3": [
+          {
+            "code": "3031",
+            "name": "Analog & Digital Circuits",
+            "credits": 3,
+            "marks": 100
+          },
+          {
+            "code": "3033",
+            "name": "Fundamentals of Electric Circuits",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "304M",
+            "name": "Electrical & Electronics Core Subject 1",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "305M",
+            "name": "Electrical & Electronics Core Subject 2",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "306M",
+            "name": "Electrical & Electronics Core Subject 3",
+            "credits": 4,
+            "marks": 100
+          }
+        ],
+        "4": [
+          {
+            "code": "4031",
+            "name": "Power Electronics Devices and Circuits",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "4033",
+            "name": "Induction Machines",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "404M",
+            "name": "Electrical & Electronics Core Subject 1",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "405M",
+            "name": "Electrical & Electronics Core Subject 2",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "406M",
+            "name": "Electrical & Electronics Core Subject 3",
+            "credits": 4,
+            "marks": 100
+          }
+        ],
+        "5": [
+          {
+            "code": "5032",
+            "name": "Electricity Generation, Transmission & Distribution",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "504M",
+            "name": "Electrical & Electronics Core Subject 1",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "505M",
+            "name": "Electrical & Electronics Core Subject 2",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "506M",
+            "name": "Electrical & Electronics Core Subject 3",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "507M",
+            "name": "Electrical & Electronics Core Subject 4",
+            "credits": 4,
+            "marks": 100
+          }
+        ],
+        "6": [
+          {
+            "code": "6009",
+            "name": "Major Project",
+            "credits": 4,
+            "marks": 125
+          },
+          {
+            "code": "6031D",
+            "name": "Electric Vehicles",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "604M",
+            "name": "Electrical & Electronics Core Subject 1",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "605M",
+            "name": "Electrical & Electronics Core Subject 2",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "606M",
+            "name": "Electrical & Electronics Core Subject 3",
+            "credits": 4,
+            "marks": 100
+          }
+        ]
       }
     },
     "AU": {
       "name": "Automobile Engineering",
       "code": "AU",
       "semesters": {
-        "1": [{"code": "1001", "name": "Communication Skills in English", "credits": 4, "marks": 100}],
-        "2": [{"code": "2051", "name": "Basic Automobile Engineering", "credits": 3, "marks": 100}],
-        "3": [{"code": "3054", "name": "Internal Combustion Engines", "credits": 4, "marks": 100}, {"code": "3051", "name": "Fundamentals of Fluid Mechanics", "credits": 3, "marks": 100}],
-        "4": [{"code": "4051", "name": "Heat Power Engineering", "credits": 4, "marks": 100}, {"code": "4053", "name": "Automobile Chassis and Transmission", "credits": 4, "marks": 100}],
-        "5": [{"code": "5052", "name": "Vehicle Diagnostics and Service", "credits": 4, "marks": 100}],
-        "6": [{"code": "6051A", "name": "Electric and Hybrid Vehicles", "credits": 4, "marks": 100}, {"code": "6009", "name": "Major Project", "credits": 4, "marks": 125}]
+        "1": [
+          {
+            "code": "1001",
+            "name": "Communication Skills in English",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "1002",
+            "name": "Mathematics I",
+            "credits": 5,
+            "marks": 100
+          },
+          {
+            "code": "1003",
+            "name": "Applied Physics I",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "1004",
+            "name": "Applied Chemistry I",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "1008",
+            "name": "Engineering Graphics",
+            "credits": 5,
+            "marks": 100
+          }
+        ],
+        "2": [
+          {
+            "code": "2051",
+            "name": "Basic Automobile Engineering",
+            "credits": 3,
+            "marks": 100
+          },
+          {
+            "code": "2001",
+            "name": "Communication Skills in English II",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "2002",
+            "name": "Mathematics II",
+            "credits": 5,
+            "marks": 100
+          },
+          {
+            "code": "2003",
+            "name": "Applied Physics II",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "2004",
+            "name": "Applied Chemistry II",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "2007",
+            "name": "Engineering Mechanics",
+            "credits": 4,
+            "marks": 100
+          }
+        ],
+        "3": [
+          {
+            "code": "304M",
+            "name": "Automobile Engineering Core Subject 1",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "3051",
+            "name": "Fundamentals of Fluid Mechanics",
+            "credits": 3,
+            "marks": 100
+          },
+          {
+            "code": "3054",
+            "name": "Internal Combustion Engines",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "305M",
+            "name": "Automobile Engineering Core Subject 2",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "306M",
+            "name": "Automobile Engineering Core Subject 3",
+            "credits": 4,
+            "marks": 100
+          }
+        ],
+        "4": [
+          {
+            "code": "404M",
+            "name": "Automobile Engineering Core Subject 1",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "4051",
+            "name": "Heat Power Engineering",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "4053",
+            "name": "Automobile Chassis and Transmission",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "405M",
+            "name": "Automobile Engineering Core Subject 2",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "406M",
+            "name": "Automobile Engineering Core Subject 3",
+            "credits": 4,
+            "marks": 100
+          }
+        ],
+        "5": [
+          {
+            "code": "504M",
+            "name": "Automobile Engineering Core Subject 1",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "5052",
+            "name": "Vehicle Diagnostics and Service",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "505M",
+            "name": "Automobile Engineering Core Subject 2",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "506M",
+            "name": "Automobile Engineering Core Subject 3",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "507M",
+            "name": "Automobile Engineering Core Subject 4",
+            "credits": 4,
+            "marks": 100
+          }
+        ],
+        "6": [
+          {
+            "code": "6009",
+            "name": "Major Project",
+            "credits": 4,
+            "marks": 125
+          },
+          {
+            "code": "604M",
+            "name": "Automobile Engineering Core Subject 1",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "6051A",
+            "name": "Electric and Hybrid Vehicles",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "605M",
+            "name": "Automobile Engineering Core Subject 2",
+            "credits": 4,
+            "marks": 100
+          },
+          {
+            "code": "606M",
+            "name": "Automobile Engineering Core Subject 3",
+            "credits": 4,
+            "marks": 100
+          }
+        ]
       }
     }
   }
