@@ -219,7 +219,7 @@ def chat():
     # If the user's message didn't match any hardcoded intents, ask the AI!
     if HAS_GEMINI:
         # Uses environment variable if found, otherwise uses your provided key
-        api_key = os.environ.get("GEMINI_API_KEY", "AIzaSyBNBiTlEVm4yhYawA5T5HeCXfbB4lpcLjI")
+        api_key = os.environ.get("GEMINI_API_KEY")
         if api_key:
             try:
                 client = genai.Client(api_key=api_key)
